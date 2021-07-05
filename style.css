@@ -6,16 +6,48 @@
 h1{
     font-size: 50px;
 }
+/* h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+h1{
+    font-size: 30px;
+} */
 #hero {
     margin: auto;
-    background-image: url(jhankar2.png);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(xhero_img.jpg.pagespeed.ic.WrSXj_3UV4.webp);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     text-align: center;
+    color: white;
+    background-attachment: fixed;
 }
 #hero div {
     width: 60%;
     margin: auto;
     height: 30vh;
     padding: 35vh 25vh;
+}
+
+.adout-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-con {
+    width: 1140px;
+    margin: auto;
+}
+
+.about {
+    width: 40%;
+    float: left;
+    margin: auto;
+}
+.about.left img{
+    max-width: 100%;
 }
